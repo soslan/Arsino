@@ -58,10 +58,12 @@ void loop(){
           case 'i':
             pin=readNumber();
             pinMode(pin, INPUT);
+            Serial.println("Done");
             break;
           case 'o':
             pin=readNumber();
             pinMode(pin, OUTPUT);
+            Serial.println("Done");
             flag=0;
             break;
           case 'D':
@@ -73,11 +75,13 @@ void loop(){
             else{
               digitalWrite(pin, HIGH);
             }
+            Serial.println("Done");
             break;
           case 'A':
             pin=readNumber();
             val=readNumber();
             analogWrite(pin, val);
+            Serial.println("Done");
             break;
             
         }
