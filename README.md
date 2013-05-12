@@ -1,5 +1,5 @@
 # Arsino
-Arsino is an Arduino program that implements pins server via Serial port. You can manipulate digital and analog input and output.
+Arsino is an Arduino program that implements pins server via serial port. You can manipulate digital and analog input and output.
 
 ## Making queries
 * To get voltage on analog input send `a[PIN_NUMBER]e`.
